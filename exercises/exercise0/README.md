@@ -29,12 +29,12 @@ You have organized a drinking competition and you got the results from it. Write
 2 Stiliyan 2.5
 3 Mariya 2.2
   
-1 Martin 2.0 
 3 Mariya 2.2
+1 Martin 2.0 
 2 Stiliyan 2.5
-  
-3 Mariya 2.2
+
 1 Martin 2.0 
+3 Mariya 2.2
 2 Stiliyan 2.5
   
 ```
