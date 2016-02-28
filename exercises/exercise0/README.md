@@ -21,10 +21,12 @@ You have organized a drinking competition and you got the results from it. Write
 
 ###### Example
 ```c++
+Input:
 1 Martin 2.0 
 2 Stiliyan 2.5
 3 Mariya 2.2
 
+Output:
 1 Martin 2.0 
 2 Stiliyan 2.5
 3 Mariya 2.2
