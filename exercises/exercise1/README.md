@@ -22,6 +22,7 @@ Define a class Movie with fields:
 * genre (static array of characters -> the max size is 50)
 * rating (from 0.0 to 10.0)  
 * duration in minutes  
+  
 You should implement a Constructor, Destructor, get/set methods and a print method, which prints the movie in the following format:  
 Name of the Movie  
      genre  
