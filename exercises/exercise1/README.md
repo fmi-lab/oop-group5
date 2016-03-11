@@ -21,11 +21,12 @@ Define a class Movie with fields:
 * name (dynamic array of characters)
 * genre (static array of characters -> the max size is 50)
 * rating (from 0.0 to 10.0)  
-* duration in minutes
-You should implement a Constructor, Destructor, get/set methods and a print method, which prints the movie in the following format:
+* duration in minutes  
+You should implement a Constructor, Destructor, get/set methods and a print method, which prints the movie in the following format:  
 Name of the Movie  
      genre  
 rating | duration  
-Separate the implementation of the methods from the interface of the class 
-Delete only the data allocated with dynamicly (with new)
-You will also need to use functions from the cstring library like strcpy(strcpy_s for Visual Studio), strlen and possibly other
+Separate the implementation of the methods from the interface of the class.
+Add "const" to methods which don't change the class' fields.
+Delete only the data allocated dynamically (with new).
+You will also need to use functions from the cstring library like strcpy(strcpy_s for Visual Studio), strlen and possibly other.
