@@ -16,3 +16,9 @@ Implement the methods in the most effective way you can think of.
 Store the interface of the class and its implementation in different files. The interface in a header file and the implementation in a .cpp file. 
 
 #### Problem 1
+
+Define a class representing movies with fields:
+* name
+* duration in minutes
+* a boolean showing if the movie is PG13
+and then define a class representing a category of movies.
