@@ -17,8 +17,15 @@ Store the interface of the class and its implementation in different files. The 
 
 #### Problem 1
 
-Define a class representing movies with fields:
-* name
+Define a class Movie with fields:
+* name (dynamic array of characters)
+* genre (static array of characters -> the max size is 50)
+* rating (from 0.0 to 10.0)  
 * duration in minutes
-* a boolean showing if the movie is PG13  
-and then define a class representing a category of movies.
+You should implement a Constructor, Destructor, get/set methods and a print method, which prints the movie in the following format:
+Name of the Movie  
+     genre  
+rating | duration  
+Separate the implementation of the methods from the interface of the class 
+Delete only the data allocated with dynamicly (with new)
+You will also need to use functions from the cstring library like strcpy(strcpy_s for Visual Studio), strlen and possibly other
