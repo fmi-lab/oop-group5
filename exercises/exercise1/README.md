@@ -20,5 +20,5 @@ Store the interface of the class and its implementation in different files. The 
 Define a class representing movies with fields:
 * name
 * duration in minutes
-* a boolean showing if the movie is PG13
+* a boolean showing if the movie is PG13  
 and then define a class representing a category of movies.
