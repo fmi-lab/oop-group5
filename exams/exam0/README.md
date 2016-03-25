@@ -19,7 +19,7 @@ The Showroom class should have methods for:
 * Getting a Car by a company which made it and a model
 * Removing a Car by a given company and model
 * Removing the slowest Car from the Showroom
-* Sorting the cars in the Showroom by maximum speed (ascending order)
+* Sorting the cars in the Showroom by maximum speed (!descending order!)
 * Printing all the Cars made in specific country
 * Printing all the Cars in the Showroom  
 When the Showroom fills with cars you should be able to hire a bigger hall with enough space to handle all the cars (preferably -> twice the size of the old one)  
