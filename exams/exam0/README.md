@@ -10,7 +10,7 @@ Define a class Car with fields:
 * Max speed (in km/h)
 * Number of doors
 * Number of seats
-* ... (add others if you want)
+* ... (add others if you want)  
 You should make get and set methods for each field. Also make a print method.  
   
 Also define a class representing the Showroom. The Showroom contains a dynamic array of Cars.  
@@ -21,7 +21,8 @@ The Showroom class should have methods for:
 * Removing the slowest Car from the Showroom
 * Sorting the cars in the Showroom by maximum speed (ascending order)
 * Printing all the Cars made in specific country
-* Printing all the Cars in the Showroom
+* Printing all the Cars in the Showroom  
 When the Showroom fills with cars you should be able to hire a bigger hall with enough space to handle all the cars (preferably -> twice the size of the old one)  
+
 BONUS:  
 * When the Showroom becomes 30% full, you shoul be able to hire a smaller hall with smaller space. (preferably 50% of the capacity of the current hall)
