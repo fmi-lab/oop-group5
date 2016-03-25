@@ -25,4 +25,4 @@ The Showroom class should have methods for:
 When the Showroom fills with cars you should be able to hire a bigger hall with enough space to handle all the cars (preferably -> twice the size of the old one)  
 
 BONUS:  
-* When the Showroom becomes 30% full, you shoul be able to hire a smaller hall with smaller space. (preferably 50% of the capacity of the current hall)
+* When the Showroom becomes 30% full, you should be able to hire a smaller hall (preferably 50% of the capacity of the current hall)
