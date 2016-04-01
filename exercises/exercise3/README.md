@@ -15,8 +15,8 @@ Relational operators:
 * ...  
 
 Array subscript operator:  
-* value& operator[](std::size_t index);
-* const value& operator[](std::size_t index) const;  
+* value& operator[] with argument index;
+* const value& operator[] const with argument index;  
 
 and many others (<<, >>, ++,--, (), &, &=, ^, ^=, |, |= ...)  
 
