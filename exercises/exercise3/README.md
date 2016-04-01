@@ -35,3 +35,9 @@ You shoud be able to:
 * find the cross product of two vectors  
 * find the angle between two vectors  
 * determine the area of a triangle by two given vectors from it  
+
+---
+
+#### Problem 1
+
+Add to your past homeworks operators where they make sense
