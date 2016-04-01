@@ -2,15 +2,18 @@ Date: 01.04.2016
 
 Assignment operator:  
 * X& operator=(const X& other);  
+
 Binary arithmetic operators:
 * X& operator+=(const X& rhs);
 * friend X operator+(X lhs,  const X& rhs);
 * ...  
+ 
 Relational operators:  
 * friend bool operator<(const X& lhs, const X& rhs);
 * friend bool operator==(const X& lhs, const X& rhs);
 * friend bool operator>(const X& lhs, const X& rhs);
 * ...  
+
 Array subscript operator:  
 * value& operator[](std::size_t index);
 * const value& operator[](std::size_t index) const;  
