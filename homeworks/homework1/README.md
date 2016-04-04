@@ -1,5 +1,7 @@
 ### 04.04.2016
 
+Link for Upload: https://my.pcloud.com/#page=puplink&code=oXzZrEGVplvCKTYdUFvmzvFkoH3xKdyX
+
 #### Problem 0
 
 Define a class -> Music Album in Spotify. The music album contains songs.   
@@ -38,23 +40,34 @@ You shoud be able to:
 * 11. determine the area of a triangle by two given vectors from it  
 
 The method's declarations follow: 
-* 1. Vector(double x = 0, double y = 0, double z = 0);
-* 2. double length() const;
-* 3. Vector& operator+=(const Vector& rhs);
-*    friend Vector(Vector lhs, const Vector& rhs);
-* 4. Vector& operator-=(const Vector& rhs);
-*    friend Vector operator-(Vector lhs, const Vector& rhs);
-* 5. Vector& operator*=(double scalar);
-*    friend Vector operator*(Vector lhs, double scalar);
-* 6. double& operator[](int index);
-*    const double& operator[](int index) const;
-* 7. void normalize() const;
-* 8. double operator*=(const Vector& rhs);
-*    friend double operator*(Vector lhs, const Vector& rhs);
-* 9. Vector& operator^=(const Vector& rhs);
-*    friend Vector operator^(Vector lhs, const Vector& rhs);
-* 10. float getAngle(const Vector& other) const;
-* 11. float getArea(const Vector& other) const;  
+* 1. 
+* Vector(double x = 0, double y = 0, double z = 0);
+* 2. 
+* double length() const;
+* 3. 
+* Vector& operator+=(const Vector& rhs);
+* friend Vector(Vector lhs, const Vector& rhs);
+* 4. 
+* Vector& operator-=(const Vector& rhs);
+* friend Vector operator-(Vector lhs, const Vector& rhs);
+* 5. 
+* Vector& operator*=(double scalar);
+* friend Vector operator*(Vector lhs, double scalar);
+* 6. 
+* double& operator[](int index);
+* const double& operator[](int index) const;
+* 7. 
+* void normalize() const;
+* 8. 
+* double operator*=(const Vector& rhs);
+* friend double operator*(Vector lhs, const Vector& rhs);
+* 9. 
+* Vector& operator^=(const Vector& rhs);
+* friend Vector operator^(Vector lhs, const Vector& rhs);
+* 10. 
+* float getAngle(const Vector& other) const;
+* 11. 
+* float getArea(const Vector& other) const;  
 
 ---
 
