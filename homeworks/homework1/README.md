@@ -57,7 +57,7 @@ The method's declarations follow:
 * double& operator[](int index);
 * const double& operator[](int index) const;
 * 7. 
-* void normalize() const;
+* void normalize();
 * 8. 
 * double dot(const Vector& other) const;
 * friend double operator*(Vector lhs, const Vector& rhs);
