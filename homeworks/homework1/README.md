@@ -54,8 +54,8 @@ The method's declarations follow:
 * Vector& operator*=(double scalar);
 * friend Vector operator*(Vector lhs, double scalar);
 * 6. 
-* double& operator[](int index);
-* const double& operator[](int index) const;
+* double& operator\[\](int index);
+* const double& operator\[\](int index) const;
 * 7. 
 * void normalize();
 * 8. 
