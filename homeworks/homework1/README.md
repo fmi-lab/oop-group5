@@ -2,7 +2,9 @@
 
 Link for Upload: https://my.pcloud.com/#page=puplink&code=oXzZrEGVplvCKTYdUFvmzvFkoH3xKdyX
 
-#### Problem 0
+**Deadline:** ` 11.04.2016`
+
+#### Problem 0 (5 Points)
 
 Define a class -> Music Album in Spotify. The music album contains songs.   
 Every song has:
@@ -23,7 +25,7 @@ The user can:
 
 ---
 
-#### Problem 1
+#### Problem 1 (5 Points)
 
 Define a class implementing a 3D Vector(x,y,z) in the Cartesian coordinate system. 
 You shoud be able to:  
@@ -73,7 +75,7 @@ Avoid repetitive code where possible
 
 ---
 
-#### Problem 2
+#### Problem 2 (5 Points)
 
 Define a class implementing a Fraction. You should keep a numerator and denominator as class-members.
 You should be to:  
