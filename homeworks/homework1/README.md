@@ -59,7 +59,7 @@ The method's declarations follow:
 * 7. 
 * void normalize() const;
 * 8. 
-* double operator*=(const Vector& rhs);
+* double dot(const Vector& other) const;
 * friend double operator*(Vector lhs, const Vector& rhs);
 * 9. 
 * Vector& operator^=(const Vector& rhs);
@@ -67,7 +67,9 @@ The method's declarations follow:
 * 10. 
 * float getAngle(const Vector& other) const;
 * 11. 
-* float getArea(const Vector& other) const;  
+* float getTriangleArea(const Vector& other) const;  
+
+Avoid repetitive code where possible  
 
 ---
 
