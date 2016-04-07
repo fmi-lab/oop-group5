@@ -9,8 +9,10 @@ You shoud be able to:
 * sum two matrices  
 * multiply the whole matrix by a scalar
 * multiply two matrices
-* get a specific element by two indices (overload operator ())
+* get and set a specific element by two indices (overload operator (), check if indices are valid)
 * transpose a matrix
+* sort the whole matrix
+* print the matrix
 
 ### Problem 1
 
