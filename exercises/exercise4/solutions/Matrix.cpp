@@ -1,7 +1,9 @@
-
-#include "Matrix.h"
 #include <cassert>
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+#include "Matrix.h"
 
 Matrix::Matrix(int n): n(n)
 {
@@ -54,16 +56,26 @@ Matrix &Matrix::operator+=(const Matrix &rhs)
     return *this;
 }
 
+
+// friend
+Matrix operator+(Matrix lhs, const Matrix &rhs)
+{
+    lhs += rhs;
+    return lhs;
+}
+
+
 Matrix &Matrix::operator*=(const Matrix &rhs)
 {
     assert(n == rhs.n);
 
     Matrix newMatrix(*this);
 
-    fill();
+    // fill();
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
+            matrix[i][j] = 0;
             for (int k = 0; k < n; k++) {
                 matrix[i][j] += newMatrix(i,k)*rhs(k,j);
             }
@@ -71,6 +83,13 @@ Matrix &Matrix::operator*=(const Matrix &rhs)
     }
 
     return *this;
+}
+
+// friend
+Matrix operator*(Matrix lhs, const Matrix & rhs)
+{
+    lhs *= rhs;
+    return lhs;
 }
 
 Matrix &Matrix::operator*=(double scalar)
@@ -81,6 +100,13 @@ Matrix &Matrix::operator*=(double scalar)
         }
     }
     return *this;
+}
+
+// friend
+Matrix operator*(Matrix lhs, double scalar)
+{
+    lhs *= scalar;
+    return lhs;
 }
 
 void Matrix::transpose()
@@ -104,6 +130,47 @@ void Matrix::print() const
     }
 }
 
+void Matrix::sort() {
+    bool swapped = false;
+    double temp = 0;
+
+    do
+    {
+        swapped = false;
+
+        // Traversing two dimensions as one
+        for (size_t i = 1; i < n * n; i++) {
+            if (matrix[(i - 1)/n][(i - 1)%n] > matrix[i/n][i%n])
+            {
+                temp = matrix[(i-1)/n][(i - 1)%n];
+                matrix[(i - 1)/n][(i - 1)%n] = matrix[i/n][i%n];
+                matrix[i/n][i%n] = temp;
+
+                swapped = true;
+            }
+        }
+    } while (swapped);
+}
+
+void Matrix::randomize() {
+
+    srand(time(NULL));
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; i < n; j++) {
+            matrix[i][j] = rand() % 100;
+        }
+    }
+}
+
+void Matrix::fill() {
+    for(int i =0; i < n; i++){
+        for(int j = 0; j < n; j++){
+            matrix[i][j] = 0;
+        }
+    }
+}
+
 void Matrix::copyMatrix(const Matrix &other)
 {
     n = other.n;
@@ -124,31 +191,5 @@ void Matrix::delMatrix()
         delete[] matrix[i];
     }
     delete matrix;
-}
-
-Matrix operator+(Matrix lhs, const Matrix &rhs)
-{
-    lhs += rhs;
-    return lhs;
-}
-
-Matrix operator*(Matrix lhs, const Matrix & rhs)
-{
-    lhs *= rhs;
-    return lhs;
-}
-
-Matrix operator*(Matrix lhs, double scalar)
-{
-    lhs *= scalar;
-    return lhs;
-}
-
-void Matrix::fill() {
-    for(int i =0; i < n; i++){
-        for(int j = 0; j < n; j++){
-            matrix[i][j] = 0;
-        }
-    }
 }
 

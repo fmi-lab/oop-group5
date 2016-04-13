@@ -17,6 +17,8 @@ public:
     friend Matrix operator*(Matrix lhs, double scalar);
     void transpose();
     void print() const;
+    void sort();
+    void randomize();
     void fill();
 private:
     void copyMatrix(const Matrix &other);
