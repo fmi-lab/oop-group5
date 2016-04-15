@@ -31,9 +31,10 @@ int main ()
 }
 ```
 
-#### Templates in classes  
+#### Templates in classes  (Silly Example)
 ```
-template <class T> class Calc
+template <class T> 
+class Calc
 {
   public:
     const T& multiply(const T &x, const T &y);
@@ -45,7 +46,7 @@ T calc<T>::multiply(const T &x,const T &y)
   return x*y;
 }
 template <class T> 
-A_Type calc<T>::add(const T &x,const T &y)
+T calc<T>::add(const T &x,const T &y)
 {
   return x+y;
 }
