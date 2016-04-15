@@ -8,7 +8,7 @@ Date: 15.04.2016
 #include <iostream>
 
 template <typename T>
-inline const &T max (T const &a, T const &b) 
+inline const &T max (const T &a, const T &b) 
 { 
     return a < b ? b:a; 
 } 
