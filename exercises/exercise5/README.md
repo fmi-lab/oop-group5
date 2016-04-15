@@ -8,7 +8,7 @@ Date: 15.04.2016
 #include <iostream>
 
 template <typename T>
-inline const &T max (const T &a, const T &b) 
+inline const T &max (const T &a, const T &b) 
 { 
     return a < b ? b:a; 
 } 
@@ -37,7 +37,7 @@ template <class T>
 class Calc
 {
   public:
-    const T& multiply(const T &x, const T &y);
+    T multiply(const T &x, const T &y);
     T add(const T &x,const T &y);
 };
 template <class T> 
@@ -61,4 +61,6 @@ Make the matrix class from the last exercise work with a template type.
 
 ### Problem 1
 
-Create a class representing the data structure Stack for a template type.
+Create a class representing the data structure Stack for a template type.  
+
+[Array Implementation Visualization](https://www.cs.usfca.edu/~galles/visualization/StackArray.html)
