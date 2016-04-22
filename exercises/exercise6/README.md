@@ -3,8 +3,9 @@ Date: 22.04.2016
 ##Inheritance
 
 ### Example
+---
 
-![Shape Hierarchy](http://www.cppforschool.com/images/inheritance-example.png)
+!(http://www.cppforschool.com/images/inheritance-example.png)
 
 ```c++
 class Shape
