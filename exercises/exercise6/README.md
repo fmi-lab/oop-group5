@@ -44,8 +44,8 @@ int main ()
 ```
 
 | Access | public | protected | private |
-|-------------------------------------|
-|Same class | yes | yes | yes |
+|--------|--------|-----------|-------|
+| Same class | yes | yes | yes |
 | Derived classes | yes | yes | no |
 | Outside classes | yes | no | no |
 
