@@ -5,8 +5,6 @@ Date: 22.04.2016
 ### Example
 ---
 
-[[http://www.cppforschool.com/images/inheritance-example.png|alt=Shape hierarchy]]]
-
 ```c++
 class Shape
 {
@@ -47,6 +45,8 @@ int main ()
 	return 0;
 }
 ```
+
+![Shape hierarchy](http://www.cppforschool.com/images/inheritance-example.png)
 
 ### Public inheritance
 --- 
@@ -95,10 +95,7 @@ Rickshaw:
 
 Implement a method in Vehicle -> void travel(int kms) const, which prints both time of travel of the concrete vehicle and its harmful emissions during the travel;
 
----
-
 #### Problem 1
 
 ![Shape Hierarchy -> Extended](http://www.learncpp.com/images/CppTutorial/Section11/ShapesInheritance.png)
 
----
