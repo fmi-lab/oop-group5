@@ -43,11 +43,11 @@ int main ()
 }
 ```
 
-Access | public | protected | private
--------------------------------------
-Same class | yes | yes | yes
-Derived classes | yes | yes | no
-Outside classes | yes | no | no
+| Access | public | protected | private |
+|-------------------------------------|
+|Same class | yes | yes | yes |
+| Derived classes | yes | yes | no |
+| Outside classes | yes | no | no |
 
 ### Problem 0
 
