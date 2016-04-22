@@ -42,7 +42,7 @@ int main ()
 	return 0;
 }
 ```
--------------------------------------
+
 Access | public | protected | private
 -------------------------------------
 Same class | yes | yes | yes
