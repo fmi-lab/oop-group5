@@ -49,7 +49,7 @@ int main ()
 ![Shape hierarchy](http://www.cppforschool.com/images/inheritance-example.png)
 
 ### Public inheritance
---- 
+-- -
 
 | Access | public | protected | private |
 |--------|--------|-----------|-------|
