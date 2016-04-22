@@ -5,6 +5,8 @@ Date: 22.04.2016
 ### Example
 ---
 
+![Shape hierarchy](http://www.cppforschool.com/images/inheritance-example.png) 
+
 ```c++
 class Shape
 {
@@ -47,6 +49,7 @@ int main ()
 ```
 
 ### Public inheritance
+--- 
 
 | Access | public | protected | private |
 |--------|--------|-----------|-------|
@@ -55,10 +58,10 @@ int main ()
 | Outside classes | yes | no | no |
 
 ### Problems
+---
 
 #### Problem 0
-![Shape Hierarchy](http://www.cppforschool.com/images/inheritance-example.png)
-![Vehicle hierarchy](http://ecomputernotes.com/images/inheritance.jpg)  
+![Vehicle hierarchy](http://ecomputernotes.com/images/inheritance.jpg)   
 
 Implement the following Hierarchy
 
@@ -91,7 +94,6 @@ Rickshaw:
 * is it self-driven
 
 Implement a method in Vehicle -> void travel(int kms) const, which prints both time of travel of the concrete vehicle and its harmful emissions during the travel;
-
 
 ---
 
