@@ -5,7 +5,7 @@ Date: 22.04.2016
 ### Example
 ---
 
-![Shape hierarchy](http://www.cppforschool.com/images/inheritance-example.png) 
+[[http://www.cppforschool.com/images/inheritance-example.png|alt=Shape hierarchy]]]
 
 ```c++
 class Shape
