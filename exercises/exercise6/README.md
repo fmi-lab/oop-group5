@@ -5,8 +5,6 @@ Date: 22.04.2016
 ### Example
 ---
 
-!(http://www.cppforschool.com/images/inheritance-example.png)
-
 ```c++
 class Shape
 {
@@ -59,7 +57,7 @@ int main ()
 ### Problems
 
 #### Problem 0
-
+![Shape Hierarchy](http://www.cppforschool.com/images/inheritance-example.png)
 ![Vehicle hierarchy](http://ecomputernotes.com/images/inheritance.jpg)  
 
 Implement the following Hierarchy
