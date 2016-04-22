@@ -4,7 +4,7 @@ Date: 22.04.2016
 
 ### Example
 
-![Shape hierarchy](http://www.cppforschool.com/images/inheritance-example.png)  
+![Shape Hierarchy](http://www.cppforschool.com/images/inheritance-example.png)
 
 ```c++
 class Shape
@@ -59,6 +59,8 @@ int main ()
 
 #### Problem 0
 
+![Vehicle hierarchy](http://ecomputernotes.com/images/inheritance.jpg)  
+
 Implement the following Hierarchy
 
 Vehicle:
@@ -91,7 +93,6 @@ Rickshaw:
 
 Implement a method in Vehicle -> void travel(int kms) const, which prints both time of travel of the concrete vehicle and its harmful emissions during the travel;
 
-![Vehicle hierarchy](http://ecomputernotes.com/images/inheritance.jpg)  
 
 ---
 
