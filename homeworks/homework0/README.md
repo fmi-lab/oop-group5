@@ -1,6 +1,8 @@
 ### 11.03.2016
 
-#### Problem 0
+**Deadline:** ` 18.03.2016`
+
+#### Problem 0 (7.5 Points)
 
 You have organized a drinking competition and you got the results from it. Write a program which takes as input the number N (max 100) and then N participants. Each participant has the properties: registration number, name, and litres alcohol drank before passing out. The program prints the contenstants in sorted order first by their numbers, then by their names and finally by their litres.
 
@@ -28,7 +30,7 @@ Output:
 
 ---
 
-#### Problem 1
+#### Problem 1 (7.5 Points)
 
 Define a class Movie with fields:
 * name (dynamic array of characters)
