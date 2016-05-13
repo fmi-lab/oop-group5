@@ -2,20 +2,26 @@
 
 A tech company has employees and customers.
 
-Both the employees and the customers are people.
+The company distributes its products to end users and not other companies.
+It has several departments with a few employees in each one.
 
-A person has:
+Example departments:
+- Sales
+- Visual Studio Integration Team
+- Google Chrome Extension Development
+
+Both employees and customers have the following properties:
 - name
 - age
 - weight
 - height
 
 An employee has:
-- id
+- employee id
 - salary
 - department
 
 A customer has:
-- id
+- customer id
 - list of bought products
 
