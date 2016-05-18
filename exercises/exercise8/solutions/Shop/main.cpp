@@ -1,32 +1,17 @@
-#include "Shop.h"
 #include <iostream>
+#include "Shop.h"
 
 int main() {
-	Shop candyShop;
-	candyShop.read(std::cin);
-	candyShop.write(std::cout);
-	std::cout << "-------------------------------------------------------" << std::endl;
-	std::cout << candyShop.search("Banan");
-	std::cout << "-------------------------------------------------------" << std::endl;
-	candyShop.remove("Banan");
-	std::cout << candyShop.search("Banan");
-	std::cout << "-------------------------------------------------------" << std::endl;
-	candyShop.write(std::cout);
+	Shop candyShop1;
+	ifstream fileReader1("inputWithSize.txt");
+	candyShop1.readWithSize(fileReader1);
+	ofstream fileWriter1("output1.txt");
+	candyShop1.write(fileWriter1);
+	/// -------------------- ///
+	Shop candyShop2;
+	ifstream fileReader2("inputWithoutSize.txt");
+	candyShop2.readWithoutSize(fileReader2);
+	ofstream fileWriter2("output2.txt");
+	candyShop2.write(fileWriter2);
 	return 0;
 }
-
-/* Example Input: 
-3
-5
-Banan
-Hranitelen
-3
-10
-Krastavica
-Hranitelen
-1
-9
-Televizor
-Tehnika
-600
-*/

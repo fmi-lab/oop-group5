@@ -9,8 +9,9 @@ public:
 	void add(const Product &newProduct);
 	void remove(const char *name);
 	Product search(const char *name);
-	void read(istream &in);
-	void write(ostream &out);
+	void readWithSize(ifstream &in);
+	void readWithoutSize(ifstream &in);
+	void write(ofstream &out);
 private:
 	vector<Product> shop;
 };

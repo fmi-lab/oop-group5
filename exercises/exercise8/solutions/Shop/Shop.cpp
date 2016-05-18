@@ -27,19 +27,44 @@ Product Shop::search(const char *name) {
 	return Product("Invalid", "Invalid", -1);
 }
 
-void Shop::read(istream &in) {
-	int size;
+void Shop::readWithSize(ifstream &in) {
+	int size, sizeOfName;
 	in >> size;
-	Product temp;
+	char *tempName;
+	char tempType[30];
+	int tempPrice;
 	for (int i = 0; i < size; i++) {
-		in >> temp;
-		shop.push_back(temp);
+		in >> sizeOfName;
+		tempName = new char[sizeOfName+1];
+		in >> tempName;
+		in >> tempType;
+		in >> tempPrice;
+		shop.push_back(Product(tempName, tempType, tempPrice));
+		delete[] tempName;
 	}
 }
 
-void Shop::write(ostream &out) {
+void Shop::readWithoutSize(ifstream &in) {
+	int sizeOfName;
+	char *tempName;
+	char tempType[30];
+	int tempPrice;
+	while(in>>sizeOfName){
+		tempName = new char[sizeOfName+1];
+		in >> tempName;
+		in >> tempType;
+		in >> tempPrice;
+		shop.push_back(Product(tempName, tempType, tempPrice));
+		delete[] tempName;
+	}
+}
+
+void Shop::write(ofstream &out) {
 	int size = shop.size();
 	for (int i = 0; i < size; i++) {
-		out << shop[i] << std::endl;
+		out << "Product: ";
+		out << "Name: " << shop[i].getName() << std::endl;
+		out << "Type: " << shop[i].getType() << std::endl;
+		out << "Price: " << shop[i].getPrice() << std::endl;
 	}
 }

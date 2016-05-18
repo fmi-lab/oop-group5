@@ -3,8 +3,8 @@
 #include <fstream>
 #include <cstring>
 
-using std::ostream;
-using std::istream;
+using std::ofstream;
+using std::ifstream;
 
 class Product {
 public:
@@ -18,8 +18,8 @@ public:
 	void setName(const char *newName);
 	void setType(const char newType[30]);
 	void setPrice(int newPrice);
-	friend ostream& operator<<(ostream &out,const Product &p);
-	friend istream& operator>>(istream  &in, Product &p);
+	///friend ostream& operator<<(ostream &out,const Product &p);
+	///friend istream& operator>>(istream  &in, Product &p);
 private:
 	char *name;
 	char type[30];

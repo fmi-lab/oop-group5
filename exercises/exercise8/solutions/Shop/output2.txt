@@ -1,0 +1,9 @@
+Product: Name: Ananas
+Type: Hranitelen
+Price: 5
+Product: Name: Toster
+Type: Tehnika
+Price: 50
+Product: Name: Laptop
+Type: Tehnika
+Price: 50

@@ -1,0 +1,12 @@
+3
+5
+Banan
+Hranitelen
+2
+10
+Krastavica
+Hranitelen
+1
+9
+Televizor
+Tehnika

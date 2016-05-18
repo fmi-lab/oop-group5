@@ -1,0 +1,9 @@
+Product: Name: Banan
+Type: Hranitelen
+Price: 2
+Product: Name: Krastavica
+Type: Hranitelen
+Price: 1
+Product: Name: Televizor
+Type: Tehnika
+Price: 1

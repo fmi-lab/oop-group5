@@ -63,7 +63,7 @@ void Product::delProduct() {
 	delete[] name;
 }
 
-ostream& operator<<(ostream &out, const Product &p) {
+/*ostream& operator<<(ostream &out, const Product &p) {
 	out << "Product: \n";
 	out << "Name: " << p.name << std::endl;
 	out << "Type: " << p.type << std::endl;
@@ -80,4 +80,4 @@ istream & operator>>(istream &in, Product &p)
 	in >> p.type;
 	in >> p.price;
 	return in;
-}
+} */
