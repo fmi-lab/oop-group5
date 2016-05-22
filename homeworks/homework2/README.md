@@ -4,7 +4,7 @@ Link for Upload: https://my.pcloud.com/#page=puplink&code=wtRZnpN06LdGzQYG1aE7VN
 
 **Deadline:** ` 05.06.2016`
 
-### Problem -> Arena Of Monsters (35 Points)
+### Problem -> Arena Of Monsters (20 Points)
 
 You randomly wonder in a world where monsters exist. You look around and discover that there are all kinds of monsters.
 You soon find out that one of the most important event in this world is an epic battle between monsters held every year. 
@@ -28,20 +28,20 @@ The monsters in the market are separated in *three* groups:
 1. Damage buff monsters
 * Demons
 * Ogres
-* Titans
+* Titans  
 These monsters have x% chance to increase their attack by 10 % every time they attack another monster. (example: 50% chance to increase their attack with 10%)  
 In case they happen to buff their damage then they first buff and then still attack the opponent monster. 
 
 2. Regenerating monsters
 * Vampires
-* Werewolves
+* Werewolves  
 These monsters have x% chance to regenerate 30 % of their health points every time they attack another monster. 
 In case they happen to regenerate their health then they first regenerate and then still attack the opponent monster.   
 
 3. Bonus damage monsters
 * Dragons
 * Phoenixes
-* Cyclops
+* Cyclops  
 These monsters have x% chance to deal bonus 50% damage to their opponent only in the current attack 
 
 Here are some specific characteristics for every monster:
@@ -52,17 +52,17 @@ Here are some specific characteristics for every monster:
 * Werewolves have minimum of 0.5 dodge chance
 * Dragons have minimum of 100 attack points and minimum of 600 health points
 * Phoenixes have maximum of 500 health points
-* Cyclops have minimum of 700 health points
-
+* Cyclops have minimum of 700 health points  
 You should have a class for every monster and group them in the proper hierarchy. 
-Now you have to take care of the monster army. Every monster army should be consisted of at least 5 monsters.
-The arena is built in a way that every monster faces only one of the opponent's monsters. The two monster armies enter a short tunnel which can't fit
+  
+Now you have to take care of the monster army. Every monster army should be consist of at least 5 monsters.
+The arena is built in a way that every monster faces only one of the opponent's monsters. The two monster armies that are about to face enter a short tunnel which can't fit
 more than one monster side by side. They enter in particular order (Example: Entrance -> Dragon -> Cyclop -> Vampire -> Phoenix -> Titan -> Exit) and 
 when the first monsters are finished fighting (one of them is dead) you remove the loser monster from the arena and allow the next monster from the
 loser army to enter in order to face the same one that beat their first. When a monster wins a battle you help him recover for 200 hp before facing the other one. 
 The battle is held while both monster armies have at least one alive monster in them.
 When one of the armies dies the other is the winner and continues in the tournament. 
-The monsters can enter only from the back of the tunnel and come out only from the front.
+The monsters can enter only from the back of the tunnel and come out only from the front.  
 You only get full points by implementing the monster army with a queue. Array implementation will give you less points.
 
 The monster army has:
@@ -73,8 +73,8 @@ Things you should be able to do with the army:
 * add monsters in the back
 * remove monsters from the front (entering the arena)
 * check the size of it
-* check if it is ready(has more than 5 monsters)
-* print it. 
+* check if it is ready (has more than 5 monsters)
+* print it.   
 Also think carefuly of which type you will make it. 
 
 Now once you got the monsters and the monster army set up you can finally set up The Great Arena Tournament.
@@ -90,5 +90,13 @@ You should be able to do the the following with the arena in order to organize t
 Once the number of monster armies reaches 16 you should begin the tournament by the following [scheme](https://gyazo.com/011db0c610543d63895523df8ba2b793).
 Only one monster army is the winner and everytime two monster armies face you should call the action (print everything that is happening to the console in a readable manner).
 
+##### Bonus 1 (3 Points):  
+Don't just print the action but also add it to a file so that after the tournament you can read what happened
+
+##### Bonus 2 (3 Points):  
+Before starting the tournament shuffle the armies in the arena so that every army faces a random opponent army
+
+##### Bonus 3 (4 Points):  
+Help the rich lords pick monsters from the market. Make a constructor for the monster army which takes an array of monsters and an available money and picks the best monsters the rich lord can afford. You can compare the monsters by power (power = attack * 0.4 + health * 0.4 + dodge chance * 0.2)
 ---
 
