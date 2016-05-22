@@ -25,20 +25,20 @@ Every monster can attack an opponent monster. It is important for you to know if
 
 The monsters in the market are separated in *three* groups:  
 
-1. Damage buff monsters
+**Damage buff monsters:**
 * Demons
 * Ogres
 * Titans  
 These monsters have x% chance to increase their attack by 10 % every time they attack another monster. (example: 50% chance to increase their attack with 10%)  
 In case they happen to buff their damage then they first buff and then still attack the opponent monster. 
 
-2. Regenerating monsters
+**Regenerating monsters:**
 * Vampires
 * Werewolves  
 These monsters have x% chance to regenerate 30 % of their health points every time they attack another monster. 
 In case they happen to regenerate their health then they first regenerate and then still attack the opponent monster.   
 
-3. Bonus damage monsters
+**Bonus damage monsters:**
 * Dragons
 * Phoenixes
 * Cyclops  
@@ -63,7 +63,7 @@ loser army to enter in order to face the same one that beat their first. When a 
 The battle is held while both monster armies have at least one alive monster in them.
 When one of the armies dies the other is the winner and continues in the tournament. 
 The monsters can enter only from the back of the tunnel and come out only from the front.  
-You only get full points by implementing the monster army with a queue. Array implementation will give you less points.
+You only get full points by implementing the monster army with a **queue**. Array implementation will give you less points.
 
 The monster army has:
 * name
@@ -88,7 +88,8 @@ You should be able to do the the following with the arena in order to organize t
 * organize the battle between two whole monster armies
 
 Once the number of monster armies reaches 16 you should begin the tournament by the following [scheme](https://gyazo.com/011db0c610543d63895523df8ba2b793).
-Only one monster army is the winner and everytime two monster armies face you should call the action (print everything that is happening to the console in a readable manner).
+Only one monster army is the winner and everytime two monster armies face you should call the action.
+The public should know the result of every attack, every fight and every battle from the tournament. (print everything that is happening to the console in a readable formatted manner)
 
 ---
 
