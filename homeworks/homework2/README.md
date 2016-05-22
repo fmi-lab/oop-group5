@@ -1,4 +1,4 @@
-### 04.04.2016
+### 22.05.2016
 
 Link for Upload: https://my.pcloud.com/#page=puplink&code=wtRZnpN06LdGzQYG1aE7VN3HBYRRBUDk
 
@@ -80,7 +80,7 @@ Things you should be able to do with the army:
 * print it.   
 Also think carefuly of which type you will make it. 
 
-Now once you got the monsters and the monster army set up you can finally set up The Great Arena Tournament.
+Now once you got the monsters and the monster army set up you can finally set up **The Great Arena Tournament**.  
 The arena tournament consists of 16 or less monster armies. The tournament starts automatically once the number of monster armies reaches 16.
 
 You should be able to do the the following with the arena in order to organize the tournament properly:
@@ -108,6 +108,6 @@ Before starting the tournament shuffle the armies in the arena so that every arm
 
 ##### Bonus 3 (4 Points):  
 Help the rich lords pick monsters from the market. 
-Make a constructor for the monster army which takes an array of monsters and an available money and picks the best monsters the rich lord can afford. 
+Make a constructor for the monster army which takes an array of monsters and money and picks the best monsters the rich lord can afford. 
 You can compare the monsters by power (power = attack * 0.4 + health * 0.4 + dodge chance * 0.2)
 
