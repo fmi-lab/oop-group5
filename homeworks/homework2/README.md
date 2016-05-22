@@ -4,15 +4,15 @@ Link for Upload: https://my.pcloud.com/#page=puplink&code=wtRZnpN06LdGzQYG1aE7VN
 
 **Deadline:** ` 05.06.2016`
 
-### Problem -> Arena Of Monsters (20 Points)
+### Problem: Arena Of Monsters (20 Points)
 
 You randomly wonder in a world where monsters exist. You look around and discover that there are all kinds of monsters.
-You soon find out that one of the most important event in this world is an epic battle between monsters held every year. 
-It is held in a huge arena in the center of the capital of the only country in this world.
-The build up to it is huge and everybody is involved. *16 armies* of monsters led by rich lords who bought the monsters and formed the army participate.
+You soon find out that one of the most important events in this world is an epic battle between monsters held every year. 
+The battle happens in a huge arena in the center of the capital of the only country in this world.
+The build up to it is huge and everybody is involved. *16 armies* of monsters led by rich lords who have bought the monsters and formed the army participate in the tournament.
 The winner of the battle is given a fortune and earns a lot of fame.
-You manage to get to organize the arena. By doing it you are able to earn fame and fortunes. This chance is rarely given to a newcomer like you
-and the responsibility is huge, so you must be sure that everything will go right.
+You manage to get to organize the arena. By doing it you are able to build you reputation as a skilled host of the arena. This chance is rarely given to a newcomer like you
+and the responsibility is huge, so you must ensure that everything will go right.
 
 **Let's start by organizing the monsters !!**  
 
@@ -24,7 +24,7 @@ Every monster has:
 * damage
 * dodge chance (floating point number between 0 and 1. It represents the chance the monster has to dodge an attack from an opponent)
 
-Every monster can attack an opponent monster. It is important for you to know if a monster is alive at anytime and to be able to call out the monsters in front of the whole arena (print them)
+Every monster can attack opponent's monster. It is important for you to know if a monster is alive at anytime and to be able to call out the monsters in front of the whole arena (print them)
 
 The monsters in the market are separated in *three* groups:  
 
@@ -51,14 +51,14 @@ Here are some specific characteristics for every monster:
 * Demons have maximum of 500 health points and minimum of 100 attack points(damage)
 * Ogres have minimum of 500 health points and maximum of 0.3 dodge chance
 * Titans have minimum of 800 health points
-* Vampires have minimum of 60 attack points and 
+* Vampires have minimum of 60 attack points and minimum of 0.4 dodge chance
 * Werewolves have minimum of 0.5 dodge chance
 * Dragons have minimum of 100 attack points and minimum of 600 health points
 * Phoenixes have maximum of 500 health points
 * Cyclops have minimum of 700 health points  
 You should have a class for every monster and group them in the proper hierarchy. 
   
-Now you have to take care of the monster army. Every monster army should be consist of at least 5 monsters.
+Now you have to take care of the monster army. Every monster army should consist of at least 5 monsters.
 The arena is built in a way that every monster faces only one of the opponent's monsters. The two monster armies that are about to face enter a short tunnel which can't fit
 more than one monster side by side. They enter in particular order (Example: Entrance -> Dragon -> Cyclop -> Vampire -> Phoenix -> Titan -> Exit) and 
 when the first monsters are finished fighting (one of them is dead) you remove the loser monster from the arena and allow the next monster from the
@@ -90,8 +90,8 @@ You should be able to do the the following with the arena in order to organize t
 * organize the fight between two monsters
 * organize the battle between two whole monster armies
 
-Once the number of monster armies reaches 16 you should begin the tournament by the following [scheme](https://gyazo.com/011db0c610543d63895523df8ba2b793).
-Only one monster army is the winner and everytime two monster armies face you should call the action.
+Once the number of monster armies reaches 16 you should start the tournament by the following [scheme](https://gyazo.com/011db0c610543d63895523df8ba2b793).
+Only one monster army is the winner and everytime two monster armies face you should print the action.
 The public should know the result of every attack, every fight and every battle from the tournament. (print everything that is happening to the console in a readable formatted manner)
 
 ---
