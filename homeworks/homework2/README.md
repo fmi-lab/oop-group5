@@ -13,6 +13,9 @@ The build up to it is huge and everybody is involved. *16 armies* of monsters le
 The winner of the battle is given a fortune and earns a lot of fame.
 You manage to get to organize the arena. By doing it you are able to earn fame and fortunes. This chance is rarely given to a newcomer like you
 and the responsibility is huge, so you must be sure that everything will go right.
+
+**Let's start by organizing the monsters !!**  
+
 The monsters available on the monster market are the following : *Titans, Dragons, Phoenixes, Demons, Cyclops, Werewolves, Vampires and Ogres*
 
 Every monster has:
