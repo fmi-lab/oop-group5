@@ -90,13 +90,20 @@ You should be able to do the the following with the arena in order to organize t
 Once the number of monster armies reaches 16 you should begin the tournament by the following [scheme](https://gyazo.com/011db0c610543d63895523df8ba2b793).
 Only one monster army is the winner and everytime two monster armies face you should call the action (print everything that is happening to the console in a readable manner).
 
+---
+
 ##### Bonus 1 (3 Points):  
 Don't just print the action but also add it to a file so that after the tournament you can read what happened
+
+---
 
 ##### Bonus 2 (3 Points):  
 Before starting the tournament shuffle the armies in the arena so that every army faces a random opponent army
 
-##### Bonus 3 (4 Points):  
-Help the rich lords pick monsters from the market. Make a constructor for the monster army which takes an array of monsters and an available money and picks the best monsters the rich lord can afford. You can compare the monsters by power (power = attack * 0.4 + health * 0.4 + dodge chance * 0.2)
 ---
+
+##### Bonus 3 (4 Points):  
+Help the rich lords pick monsters from the market. 
+Make a constructor for the monster army which takes an array of monsters and an available money and picks the best monsters the rich lord can afford. 
+You can compare the monsters by power (power = attack * 0.4 + health * 0.4 + dodge chance * 0.2)
 
