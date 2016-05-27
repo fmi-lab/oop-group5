@@ -14,6 +14,7 @@ public:
     {
     }
     std::string GetName() { return m_strName; }
+    ///const char* Speak() { return "???"; }
     virtual const char* Speak() { return "???"; }
 };
  
@@ -24,8 +25,7 @@ public:
         : Animal(strName) 
     {
     }
-    /// const char* Speak() { return "Meow"; }
-    virtual const char* Speak() { return "Meow"; }
+    const char* Speak() { return "Meow"; }
 };
  
 class Dog: public Animal
@@ -35,8 +35,7 @@ public:
         : Animal(strName)
     {
     }
-    /// const char* Speak() { return "Woof"; }
-    virtual const char* Speak() { return "Woof"; }
+    const char* Speak() { return "Woof"; }
 };
 
 int main() {
