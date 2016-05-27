@@ -54,29 +54,29 @@ int main() {
 class USBDevice
 {
 private:
-    long m_lID;
+    long m_USBlID;
  
 public:
     USBDevice(long lID)
-        : m_lID(lID)
+        : m_USBlID(lID)
     {
     }
  
-    long GetID() { return m_lID; }
+    long GetUSBID() { return m_USBlID; }
 };
  
 class NetworkDevice
 {
 private:
-    long m_lID;
+    long m_NetworklID;
  
 public:
     NetworkDevice(long lID)
-        : m_lID(lID)
+        : m_NetworklID(lID)
     {
     }
  
-    long GetID() { return m_lID; }
+    long getNetworklID() { return m_NetworklID; }
 };
  
 class WirelessAdaptor: public USBDevice, public NetworkDevice
@@ -91,7 +91,7 @@ public:
 int main()
 {
     WirelessAdaptor c54G(5442, 181742);
-    cout << c54G.GetID(); // Which GetID() do we call?
+    cout << c54G.GetNetworkID();
  
     return 0;
 }
