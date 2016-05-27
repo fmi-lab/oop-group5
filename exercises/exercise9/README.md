@@ -76,7 +76,7 @@ public:
     {
     }
  
-    long getID() { return m_ID; }
+    long GetID() { return m_ID; }
 };
  
 class WirelessAdaptor: public USBDevice, public NetworkDevice
