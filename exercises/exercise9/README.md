@@ -142,4 +142,4 @@ public:
 };
 ```
 
-Problems will be given during the exercise !
+Problems are going to be given during the exercise !
