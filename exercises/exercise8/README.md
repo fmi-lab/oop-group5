@@ -22,7 +22,7 @@ The shop should have the following functionalities:
 
 Define a template function which takes as arguments:
 * two dynamic arrays from a template type
-* the sizes of the two arrays
+* the sizes of the two arrays  
 and returns the number of matching elements in the two arrays
 
 ###### Example
@@ -42,7 +42,7 @@ Output:
 Implement the higher order function filter which takes as arguments: 
 * dynamic array of integers (lets call it -> arr)
 * the size of the dynamic array
-* function which takes as argument int and returns bool (lets call it -> pred)
+* function which takes as argument int and returns bool (lets call it -> pred)  
 and prints the elements which satisfy the bool function (the elements arr[i] for which pred(arr[i]) returns true)
 
 ---
