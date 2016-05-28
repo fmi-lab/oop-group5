@@ -6,7 +6,7 @@ Link for Upload: https://my.pcloud.com/#page=puplink&code=wtRZnpN06LdGzQYG1aE7VN
 
 ### Problem: Arena Of Monsters (20 Points)
 
-You randomly wonder in a world where monsters exist. You look around and discover that there are all kinds of monsters.
+You randomly wander in a world where monsters exist. You look around and discover that there are all kinds of monsters.
 You soon find out that one of the most important events in this world is an epic battle between monsters held every year. 
 The battle happens in a huge arena in the center of the capital of the only country in this world.
 The build up to it is huge and everybody is involved. *16 armies* of monsters led by rich lords who have bought the monsters and formed the army participate in the tournament.
@@ -16,7 +16,7 @@ and the responsibility is huge, so you must ensure that everything will go right
 
 **Let's start by organizing the monsters !!**  
 
-The monsters available on the monster market are the following : *Titans, Dragons, Phoenixes, Demons, Cyclops, Werewolves, Vampires and Ogres*
+The monsters available on the monster market are the following : *Titans, Dragons, Phoenixes, Demons, Cyclops, Werewolves, Vampires, Ogres and Chimeras*
 
 Every monster has:
 * name
@@ -31,13 +31,15 @@ The monsters in the market are separated in *three* groups:
 **Damage buff monsters:**
 * Demons
 * Ogres
-* Titans  
+* Titans
+* **Chimeras**  
 These monsters have x% chance to increase their attack by 10 % every time they attack another monster. (example: 50% chance to increase their attack with 10%)  
 In case they happen to buff their damage then they first buff and then still attack the opponent monster. 
 
 **Regenerating monsters:**
 * Vampires
-* Werewolves  
+* Werewolves 
+* **Chimeras** 
 These monsters have x% chance to regenerate 30 % of their health points every time they attack another monster. 
 In case they happen to regenerate their health then they first regenerate and then still attack the opponent monster.   
 
@@ -56,6 +58,7 @@ Here are some specific characteristics for every monster:
 * Dragons have minimum of 100 attack points and minimum of 600 health points
 * Phoenixes have maximum of 500 health points
 * Cyclops have minimum of 700 health points  
+* Chimeras have minimum of 500 health points and minimum of 100 attack points
 You should have a class for every monster and group them in the proper hierarchy. 
   
 Now you have to take care of the monster army. Every monster army should consist of at least 5 monsters.
@@ -78,7 +81,6 @@ Things you should be able to do with the army:
 * check the size of it
 * check if it is ready (has more than 5 monsters)
 * print it.   
-Also think carefuly of which type you will make it. 
 
 Now once you got the monsters and the monster army set up you can finally set up **The Great Arena Tournament**.  
 The arena tournament consists of 16 or less monster armies. The tournament starts automatically once the number of monster armies reaches 16.
