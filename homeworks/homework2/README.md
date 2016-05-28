@@ -33,13 +33,15 @@ The monsters in the market are separated in *three* groups:
 * Ogres
 * Titans
 * **Chimeras**  
-These monsters have x% chance to increase their attack by 10 % every time they attack another monster. (example: 50% chance to increase their attack with 10%)  
+  
+Damage buff monsters have x% chance to increase their attack by 10 % every time they attack another monster. (example: 50% chance to increase their attack with 10%)  
 In case they happen to buff their damage then they first buff and then still attack the opponent monster. 
 
 **Regenerating monsters:**
 * Vampires
 * Werewolves 
 * **Chimeras** 
+
 These monsters have x% chance to regenerate 30 % of their health points every time they attack another monster. 
 In case they happen to regenerate their health then they first regenerate and then still attack the opponent monster.   
 
@@ -47,6 +49,7 @@ In case they happen to regenerate their health then they first regenerate and th
 * Dragons
 * Phoenixes
 * Cyclops  
+
 These monsters have x% chance to deal bonus 50% damage to their opponent only in the current attack 
 
 Here are some specific characteristics for every monster:
@@ -58,7 +61,7 @@ Here are some specific characteristics for every monster:
 * Dragons have minimum of 100 attack points and minimum of 600 health points
 * Phoenixes have maximum of 500 health points
 * Cyclops have minimum of 700 health points  
-* Chimeras have minimum of 500 health points and minimum of 100 attack points
+* Chimeras have minimum of 500 health points and minimum of 100 attack points  
 You should have a class for every monster and group them in the proper hierarchy. 
   
 Now you have to take care of the monster army. Every monster army should consist of at least 5 monsters.
