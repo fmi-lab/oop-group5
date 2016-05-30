@@ -54,29 +54,29 @@ int main() {
 class USBDevice
 {
 private:
-    long m_lID;
+    long USBID;
  
 public:
-    USBDevice(long lID)
-        : m_lID(lID)
+    USBDevice(long ID)
+        : USBID(ID)
     {
     }
  
-    long GetID() { return m_lID; }
+    long getUSBID() { return USBID; }
 };
  
 class NetworkDevice
 {
 private:
-    long m_ID;
+    long networkID;
  
 public:
-    NetworkDevice(long lID)
-        : m_ID(lID)
+    NetworkDevice(long ID)
+        : networkID(ID)
     {
     }
  
-    long GetID() { return m_ID; }
+    long getNetworkID() { return networkID; }
 };
  
 class WirelessAdaptor: public USBDevice, public NetworkDevice
@@ -91,8 +91,8 @@ public:
 int main()
 {
     WirelessAdaptor c54G(5442, 181742);
-    cout << c54G.GetID();
- 
+    cout << c54G.getUSBID();
+    cout << c54G.getNetworkID();
     return 0;
 }
 ```
@@ -135,7 +135,7 @@ class Copier: public Scanner, public Printer
 {
 public:
     Copier(int nScanner, int nPrinter, int nPower)
-        : Scanner(nScanner, nPower), Printer(nPrinter, nPower)
+        : PoweredDevice(nPower), Scanner(nScanner, nPower), Printer(nPrinter, nPower)
     {
     }
 };
