@@ -7,7 +7,22 @@ Write the following hierarchy:
 
                         Station
                       /    |    \
-           Trainstation Airport BusStation
-          /     |     \
-    People   Hybrid   Cargo
+           TrainStation Airport BusStation
+           /        \
+      People        Cargo
+           \        /
+             Hybrid
 
+
+Station should have: 
+- location;
+- array of transport numbers (up to 150);
+- array of the the time that transportNumbers[i] leaves the station;
+
+BusStation should have number of seats.
+
+TrainStation should have methods that specify whether it's people or cargo trainstation.
+
+CargoStation should have load and indicate it's cargo.
+PeopleStation should have number of seats.
+HybridStation should have both.
