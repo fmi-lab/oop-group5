@@ -48,7 +48,7 @@ Every time too many fighters come and the gym fills with fighters the owner buys
 On the other hand, if too many fighters leave and the current gym is bigger than it needs to be(Only 30% of the gym is full with fighters), the owner buys new one, which is with size = 1/2 * size of the old one.
 
 
-Finally, make a method Fight, which takes as arguments two clubs and returns the name of the winner club.
+Finally, make a function Fight(outside of every class), which takes as arguments two clubs and returns the name of the winner club.
 If one of the clubs has more fighters, then the difference between the sizes is converted in wins for the bigger club.
 (For example: suppose that club1 has 2 fighters and club2 has 4. Then the first fighter from club1 faces the first one from club2. Then second vs second. After the two fights club2 gets 2 extra wins)
 If two fighters have the same power then none of the clubs gets a win. The winner is the club with the higher value of wins.
